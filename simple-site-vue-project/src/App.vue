@@ -112,7 +112,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   div.main {
     background-color: rgb(149, 188, 192);
     min-height: 100vh;
@@ -124,7 +124,7 @@ footer {
     flex-direction: column;
     padding:0.3rem;
     font-size: 0.9rem;
-    margin:0.8rem;
+    margin:1.5rem;
   }
   a.links{
     font-size:0.9rem;
