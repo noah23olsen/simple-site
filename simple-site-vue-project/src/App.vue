@@ -1,9 +1,11 @@
 <template>
   <div class="main">
-     <div class="title">
-     <h1>about me</h1>
+     <div class="title-container">
+      <title-vue 
+      :titleText="currentTitle"
+      />
       <p>
-        <i>"He has the most who is most content with the least."</i><br />
+        <i>"He has the most who is most content with the least."</i><br>
         -Diogenes
       </p>
     </div>
@@ -21,22 +23,38 @@
       <router-view></router-view>
     </div>
     <footer>
-      <p>-</p>
+      <p>inspired by <a href="https://ranprieur.com/" >ran priuer</a></p>
     </footer>
   </div>
 </template>
 
 <script>
+import TitleVue from './components/TitleVue.vue';
+
+
 export default {
   name: 'App',
+  components: {
+    TitleVue
+  },
+  data(){
+    return {
+      currentTitle: 'placeholder'
+    }
+  },
+  watch: {
+    $route(to) {
+      this.currentTitle = to.meta.title || '-'
+    }
+  }
 };
 </script>
 
 <style>
 html,
 body {
-  margin: 0; /*overrides the default browser behavior */
-  padding: 0; /*overrides the default browser behavior */
+  margin: 0;
+  padding: 0;
 }
 
 div.main {
@@ -47,11 +65,9 @@ div.main {
   grid-template-rows: auto auto auto;
 }
 
-div.title {
+div.title-container {
   /* background-color: rgb(99, 199, 210); */
   background-color: rgb(149, 188, 192);
-
-
   grid-column: 1 / 4;
   text-align: center;
 }
@@ -76,7 +92,6 @@ a.links {
   display: block;
   margin-bottom: 0.8rem;
   font-size:1.5rem;
-  /* color: rgb(100, 190, 250); */
 }
 a.links:hover{
   color:white;

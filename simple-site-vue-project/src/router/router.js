@@ -5,9 +5,24 @@ import ReadingsVue from '@/components/ReadingsVue.vue';
 
 
 const routes = [
-    { path: '/', component: Home },
-    { path: '/music', name: 'MusicVue', component: MusicVue },
-    { path: '/readings', name: 'ReadingsVue', component: ReadingsVue },
+    {
+        path: '/',
+        component: Home,
+        meta: { title: 'about me'}
+    },
+    {
+        path: '/music',
+        name: 'MusicVue',
+        component: MusicVue,
+        meta: { title: 'melodies i enjoy'}
+
+    },
+    {
+        path: '/readings',
+        name: 'ReadingsVue',
+        component: ReadingsVue,
+        meta: { title: 'literary favorites'}
+    },
 
 ];
 
