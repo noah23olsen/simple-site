@@ -1,6 +1,7 @@
 <template>
     <div>
         <h3>intro</h3>
+        <i>preface: this bio and intro page is an egotistical mess thats quite frankly pretty obnoxious(or at least unfun) to read.. bear with me as I refactor it(Jan 2024)</i>
       <p>
         Hey, my name is Noah Olsen, and I'm a relentlessly curious software
         engineer who is on a mission to change the world through the integration

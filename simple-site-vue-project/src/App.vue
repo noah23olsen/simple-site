@@ -5,19 +5,19 @@
     </div>
     <div class="links-container">
       <a
-        class="links"
+        class="links links2"
         href="https://www.linkedin.com/in/noaholsen-/"
         target="_blank"
         >LinkedIn</a
       >
-      <a class="links" href="https://github.com/noah23olsen" target="_blank"
+      <a class="links links2" href="https://github.com/noah23olsen" target="_blank"
         >Github</a
       >
-      <a class="links" href="https://twitter.com/sirNoahOlsen" target="_blank"
+      <a class="links links2" href="https://twitter.com/sirNoahOlsen" target="_blank"
         >X</a
       >
       <router-link class="links" to="/">home</router-link>
-      <router-link class="links" to="/music">music</router-link>
+      <router-link class="links" to="/music">music/pods</router-link>
       <router-link class="links" to="/readings">readings</router-link>
       <!-- <a class="links" href="#">entertainment</a> -->
       <!-- <a class="links" href="#">philosophy</a> -->
@@ -96,6 +96,9 @@ a.links {
   display: block;
   margin-bottom: 0.8rem;
   font-size: 1.5rem;
+}
+a.links2{
+  color:rgb(79, 50, 245);
 }
 a.links:hover {
   color: white;
