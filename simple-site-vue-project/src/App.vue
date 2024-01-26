@@ -2,10 +2,6 @@
   <div class="main">
     <div class="title-container">
       <title-vue :titleText="currentTitle" />
-      <p>
-        <i>"He has the most who is most content with the least."</i><br />
-        -Diogenes
-      </p>
     </div>
     <div class="links-container">
       <a
