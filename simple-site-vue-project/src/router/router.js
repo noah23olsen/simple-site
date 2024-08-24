@@ -8,7 +8,7 @@ const routes = [
     {
         path: '/',
         component: Home,
-        meta: { title: 'about me'}
+        meta: { title: 'about'}
     },
     {
         path: '/music',

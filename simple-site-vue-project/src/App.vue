@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" v-if="0>1">
     <div class="title-container">
       <title-vue :titleText="currentTitle" />
     </div>
@@ -28,6 +28,12 @@
     <footer>
       <p>inspired by <a href="https://ranprieur.com/">ran prieur</a></p>
     </footer>
+  </div>
+  <div v-else>
+    <a href="https://www.google.com/search?q=the+answer+to+life%2C+the+universe%2C+and+everything"
+    target="_blank"
+    >42
+  </a>
   </div>
 </template>
 
