@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid" v-if="0 > 1">
+  <div class="container-fluid" v-if="currentTitle !== 'about'">
     <div class="row text-center">
       <div class="col-12 bg-cyan">
         <title-vue :titleText="currentTitle" />
@@ -29,7 +29,7 @@
       </a>
     </div>
 
-    <div class="bg-black d-flex align-items-center justify-content-center" style="height: 7vh;]">
+    <div class="bg-black d-flex align-items-center justify-content-center" style="height: 7vh;">
       <div class="d-flex w-50 justify-content-between">
         <a class="links-color" href="https://github.com/noah23olsen" target="_blank">github</a>
         <a class="links-color" href="https://twitter.com/noaholsen_" target="_blank">x</a>
