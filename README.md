@@ -1,4 +1,4 @@
-# simple-site-vue-project
+# simple-site
 
 ## Project setup
 ```
