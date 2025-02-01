@@ -6,7 +6,7 @@
     <p>{{ description }}</p>
     <div class="languages-container">
       <p>- </p>
-      <p v-for="language in languages" v-bind:key="language"><i>{{ language + ',&nbsp;' }}</i></p>
+      <!-- <p class="text-wrap" v-for="language in languages" v-bind:key="language"><i>{{ language + ',&nbsp;' }}</i></p> -->
     </div>
   </div>
 </template>
