@@ -9,3 +9,4 @@ inject();
 createApp(App)
   .use(router)
   .mount('#app');
+
