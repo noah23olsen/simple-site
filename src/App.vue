@@ -30,7 +30,7 @@
     </footer>
   </div>
   <div class="bg-black d-flex justify-content-center align-items-center"
-  style="height: 95vh;"
+  style="height: 93vh;"
   v-else>
     <a 
     class="mb-0 text-white"
@@ -40,7 +40,7 @@
     </a>
   </div>
 
-   <div class="bg-black d-flex align-items-center justify-content-center" style="height: 5vh; position: relative;">
+   <div class="bg-black d-flex align-items-center justify-content-center" style="height: 7vh; position: relative;">
     <div class="d-flex w-50 justify-content-between">
       <a class="links-color" href="https://github.com/noah23olsen" target="_blank">github</a>
       <a class="links-color" href="https://twitter.com/sirNoahOlsen" target="_blank" style="position: absolute; left: 50%; transform: translateX(-50%);">x</a>
