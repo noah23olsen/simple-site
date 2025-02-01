@@ -33,7 +33,7 @@
   style="height: 95vh;"
   v-else>
     <a 
-    class="text-white mb-5"
+    class="mb-0 text-white"
     href="https://www.google.com/search?q=the+answer+to+life%2C+the+universe%2C+and+everything"
     target="_blank"
     >42
@@ -42,9 +42,9 @@
 
    <div class="bg-black d-flex align-items-center justify-content-center" style="height: 5vh; position: relative;">
     <div class="d-flex w-50 justify-content-between">
-      <a class="text-white" href="https://github.com/noah23olsen" target="_blank">github</a>
-      <a class="text-white" href="https://twitter.com/sirNoahOlsen" target="_blank" style="position: absolute; left: 50%; transform: translateX(-50%);">x</a>
-      <a class="text-white" href="https://www.linkedin.com/in/noaholsen-/" target="_blank">linkedin</a>
+      <a class="links-color" href="https://github.com/noah23olsen" target="_blank">github</a>
+      <a class="links-color" href="https://twitter.com/sirNoahOlsen" target="_blank" style="position: absolute; left: 50%; transform: translateX(-50%);">x</a>
+      <a class="links-color" href="https://www.linkedin.com/in/noaholsen-/" target="_blank">linkedin</a>
     </div>
   </div>
 </template>
@@ -93,6 +93,10 @@ div.title-container {
   background-color: rgb(149, 188, 192);
   grid-column: 1 / 4;
   text-align: center;
+}
+
+.links-color {
+  color: rgba(255, 255, 255, 0.746);
 }
 
 .content {
