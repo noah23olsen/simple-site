@@ -1,13 +1,14 @@
 <template>
-  <div>
-    <h4>
-      <a :href="link">{{ title }}</a>
-    </h4>
-    <p>{{ description }}</p>
-    <div class="languages-container">
-      <p>- </p>
-      <!-- <p class="text-wrap" v-for="language in languages" v-bind:key="language"><i>{{ language + ',&nbsp;' }}</i></p> -->
-    </div>
+  <div class="mb-5">
+    <h6>
+      <a v-if="link" :href="link" class="text-black" target="_blank">{{ title }}</a>
+      <a v-else class="text-black text-decoration-none">{{ title }}</a>
+    </h6>
+  
+    <p class="mb-1">{{ description }}</p>
+    <small class="mb-5 text-muted">
+      <i>{{ languages.join(", ") }} </i>
+    </small>
   </div>
 </template>
 
@@ -18,8 +19,4 @@ export default {
 </script>
 
 <style scoped>
-div.languages-container{
-    display:flex;
-
-}
 </style>

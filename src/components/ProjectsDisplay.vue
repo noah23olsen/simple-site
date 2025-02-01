@@ -1,7 +1,7 @@
 <template>
   <div>
     <br />
-    <h3>personal projects</h3>
+    <h3 class="mb-4">personal projects</h3>
     <projects-vue
       v-for="project in projects"
       :key="project.title"

@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h3>intro</h3>
+    <div class="mb-5">
+        <h3 class="mb-3">intro</h3>
       <p>update Jan 2024: <a href="/music"> added music/podcast/audiobook section</a></p>
         <i>preface: this bio and intro page is an egotistical mess thats quite frankly pretty obnoxious(or at least unfun) to read.. bear with me as I refactor it(Jan 2024)</i>
       <p>
